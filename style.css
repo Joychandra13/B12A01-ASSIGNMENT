@@ -33,8 +33,8 @@ button:hover{
 
 /* navbar */
 .navbar{
-  width: 1140px;
-  margin: 0 auto;
+  /* max-width: 1140px;
+  margin: 0 auto; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,6 +49,7 @@ button:hover{
 
 .header{
   background-image: url("Assets/Hero-bg.png");
+  padding: 0 150px;
 }
 
 .banner{
@@ -63,4 +64,26 @@ button:hover{
   color: #252432;
   text-align: center;
   margin-bottom: 37px;
+}
+
+.main{
+  padding: 0 150px;
+}
+
+.action-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin: 116px 0px;
+}
+.action-section-title {
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+}
+.action-section-des {
+  font-size: 24px;
+  color: rgba(37, 36, 50, .5);
+  margin: 23px 0px;
 }
